@@ -29,6 +29,11 @@
 </ul>
 <ul><h2>reset</h2>
 	<li>스테이지에 올린 파일을 스테이지에서 내림 : git reset file1</li>
+	<li>현제 브랜치를 지정한 커밋으로 옮김, 작업내뇽도 함께 변경 : git reset --hard {이동할 커밋 체크섬}
+		<ul>
+			<li>ex : git reset --hard HEAD~2 (두커밋 이전으로 이동) </li>
+		</ul>
+	</li>
 </ul>
 <ul><h2>commit</h2>
 	<li>스테이지에 있는 파일 커밋 : git commit</li>
@@ -47,7 +52,21 @@
 		</ul>
 	</li>
 </ul>
-<ul><h2></h2>
-	<li></li>
+<ul><h2>push</h2>
+	<li>원격저장소 등록 : git remote add {원격 저장소 이름} {원격 저장소 주소}</li>
+	<li>원격저장소 목록확인 : git remote -v</li>
 </ul>
-
+<ul><h2>branch</h2>
+	<li>브랜치목록확인 : git branch -v</li>
+	<li>브랜치 이동 : git checkout {브랜치 이름}</li>
+	<li>브랜치 생성/이동 : git checkout -b {브랜치 이름}</li>
+	<li>브랜치 병합 : git merge {대상 브랜치}</li>
+	<li>브랜치 재배치 : git rebase {대상 브랜치}</li>
+	<li>브랜치 삭제(HEAD브랜치나 병합되지 않은 브랜치는 삭제X) : git branch -d</li>
+	<li>브랜치 강제삭제 : git branch -D</li>
+</ul>
+<ul><h2>tag</h2>
+	<li>태그 생성 : git tag -a -m "태그이름" v0.1</li>
+	<li>태그 생성 확인 : git log --oneline</li>
+	<li>태그 push : git push origin v0.1</li>
+</ul>
