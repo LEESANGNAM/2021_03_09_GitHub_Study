@@ -29,7 +29,7 @@
 </ul>
 <ul><h2>reset</h2>
 	<li>스테이지에 올린 파일을 스테이지에서 내림 : git reset file1</li>
-	<li>현제 브랜치를 지정한 커밋으로 옮김, 작업내뇽도 함께 변경 : git reset --hard {이동할 커밋 체크섬}
+	<li>현제 브랜치를 지정한 커밋으로 옮김, 작업내용도 함께 변경 : git reset --hard {이동할 커밋 체크섬}
 		<ul>
 			<li>ex : git reset --hard HEAD~2 (두커밋 이전으로 이동) </li>
 		</ul>
