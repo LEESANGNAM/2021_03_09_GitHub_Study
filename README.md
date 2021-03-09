@@ -70,3 +70,12 @@
 	<li>태그 생성 확인 : git log --oneline</li>
 	<li>태그 push : git push origin v0.1</li>
 </ul>
+
+<h3>사용 프로그램 : Git Bash</h3>
+<h3>IntelliJ GitBash연동</h3>
+<pre>
+1. IntelliJ에서 ctrl + alt + s 키를 눌러 Settings창을 연다. 또는 File에 Settings를 찾아 연다.
+2. Tools -> Terminal을 눌러 Shell path가 cmd.exe로 되어있는걸 확인 할수 있음.
+3. Shell path를 "Git/bin/sh.exe" -login -i로 변경한다.(경로는 사용자마다 다를 수 있음)
+4. 그후 Terminal을 실행해보면 GitBash로 바뀐걸 확인할수 있다.
+</pre>
