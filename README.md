@@ -1,5 +1,5 @@
 # 2021_03_09_GitHub_Study
-<h3>Git Bash Study</h3>
+<h1>Git Bash Study</h1>
 <h2>Git Clone</h2>
 <ul>
 	<li>해당 저장소를 clone : git clone {git address}</li>
