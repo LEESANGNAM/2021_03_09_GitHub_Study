@@ -38,8 +38,8 @@
 <ul><h2>log</h2>
 	<li>커밋 히스토리 확인 : git log</li>
 	<li>최신 n개만 확인 : git log -n{숫자}</li>
-	<li>
-		<ul>간결하게 확인 : git log --oneline --graph --decorate --all
+	<li>간결하게 확인 : git log --oneline --graph --decorate --all
+		<ul>
 			<li>--oneline : 커밋 메시지를 한줄로 요약해서 보여줌</li>
 			<li>--graph : 커밋 옆애 브랜치의 흐름을 그래프로 보여줌</li>
 			<li>--decorate : 브랜치와 태그 등의 참조를 간결히표시</li>
