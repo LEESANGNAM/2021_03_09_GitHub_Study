@@ -1,6 +1,6 @@
 # 2021_03_09_GitHub_Study
 <h1>Git Bash Study</h1>
-<ul>init
+<ul><h2>init</h2>
 	<li>해당 폴더를 로컬 저장소로 지정 : git init</li>
 </ul>
 <ul><h2>Clone</h2>
