@@ -45,7 +45,7 @@
 			<li>--decorate : 브랜치와 태그 등의 참조를 간결히표시</li>
 			<li>--all : all 옵션이 없을 경우 HEAD와 관계없는 옵션은 보여주지 않음</li>
 		</ul>
-	<li>
+	</li>
 </ul>
 <ul><h2></h2>
 	<li></li>
